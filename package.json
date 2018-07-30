@@ -1,0 +1,35 @@
+{
+  "name": "slock.it",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "lint": "eslint \"**/*.js\"",
+    "lint-fix": "eslint --fix \"**/*.js\"",
+    "precommit": "lint-staged",
+    "prettify": "prettier --write \"**/*.js\"",
+    "pretest": "npm run lint",
+    "test": "echo \"No tests specified.\"",
+    "start": "ts-node --max_old_space_size=2048 server.js"
+  },
+  "author": "Magda Foti <mgdfoti@gmail.com>",
+  "license": "BSD",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.7.2",
+    "express-handlebars": "^3.0.0",
+    "path": "^0.12.7",
+    "web3": "^1.0.0-beta.34"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.64",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.1.0",
+    "prettier": "^1.12.1",
+    "ts-node": "^6.0.3",
+    "typescript": "~2.8.3"
+  }
+}
