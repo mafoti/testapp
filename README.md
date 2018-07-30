@@ -6,14 +6,17 @@ A NodeJs project Query Ethereum Name Service Contract Events.
 1) Clone app from [repository](https://github.com/mafoti/testapp):
 ```
 $ git clone https://github.com/mafoti/testapp.git
-
 ```
 2) cd to created directory and install packages
+```
 $ cd slockit
 $ npm install
+```
 
 3) Start NodeJs Server
+```
 $ npm start
+```
 
 4) Use the web interface at [http://localhost:3000](http://localhost:3000)
 
