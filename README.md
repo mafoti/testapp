@@ -3,24 +3,25 @@ A NodeJs project Query Ethereum Name Service Contract Events.
 
 ## Get Started
 
-1) Get slockit.tar.gz file
+1) Clone app from [repository](https://github.com/mafoti/testapp):
+```
+$ git clone https://github.com/mafoti/testapp.git
 
-2) Extract contents
-
-3) cd to created directory and install packages
+```
+2) cd to created directory and install packages
 $ cd slockit
 $ npm install
 
-4) Start NodeJs Server
+3) Start NodeJs Server
 $ npm start
 
-5) Use the web interface at [http://localhost:3000](http://localhost:3000)
+4) Use the web interface at [http://localhost:3000](http://localhost:3000)
 
-6) Select a date to query 'BidRevealed' events since that date.
+5) Select a date to query 'BidRevealed' events since that date.
 
-7) Click Search
+6) Click Search
 
-8) Retrieved events will be listed on the page
+7) Retrieved events will be listed on the page
 
 ## Settings
 
