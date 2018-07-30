@@ -9,7 +9,7 @@ $ git clone https://github.com/mafoti/testapp.git
 ```
 2) cd to created directory and install packages
 ```
-$ cd slockit
+$ cd testapp
 $ npm install
 ```
 
